@@ -1,0 +1,7 @@
+<?php
+
+// Variables
+
+// Includes
+
+// Hooks
