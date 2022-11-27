@@ -1,0 +1,20 @@
+.header-search-form .wp-block-search__label,
+.header-search-form .wp-block-search__button {
+  display: none;
+}
+
+.header-search-form::after {
+  right: 1.25rem !important;
+  top: 0.75rem !important;
+  bottom: auto !important;
+  left: auto !important;
+}
+
+.wp-block-group.flex
+  .wp-block-navigation-item:not(:first-child)
+  .wp-block-navigation-item__content {
+  border-left-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(75 85 99 / var(--tw-border-opacity));
+  padding-left: 1rem;
+}
